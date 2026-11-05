@@ -1,75 +1,65 @@
-# React + TypeScript + Vite
+# EventConnect – Community Events Discovery Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+EventConnect is a community events discovery platform that helps people find, explore, and learn about upcoming events in their communities.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The platform provides a simple and user-friendly way to discover community events, explore event details, and try a demo registration experience.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Discover upcoming community events
+- Browse featured events
+- Search events
+- Explore event categories
+- View event details
+- Demo event registration
+- Responsive design
 
-## Expanding the ESLint configuration
+## Pages
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Home
+- Events
+- Event Details
+- Registration
+- About
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Technologies
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- React
+- TypeScript
+- Vite
+- Git and GitHub
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Project Structure
 
+```text
+eventconnect/
+├── docs/
+│   ├── home-wireframe.md
+│   └── events-wireframe.md
+├── public/
+├── src/
+├── PROJECT_BRIEF.md
+├── SITEMAP.md
+└── README.md
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+## Installation
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+git clone https://github.com/Etsuba191/EventConnect.git
+cd EventConnect
+npm install
+npm run dev
 ```
+
+## Project Status
+
+Currently in Week 1 of development.
+
+## Author
+
+Etsubdink Enyew
+
+GitHub: https://github.com/Etsuba191
