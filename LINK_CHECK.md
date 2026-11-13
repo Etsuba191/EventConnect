@@ -21,11 +21,12 @@ http://localhost:5173/
 | Link | Destination | Status |
 |---|---|---|
 | Home | / | Implemented |
-| Events | /events | Planned |
-| About | /about | Planned |
-| Event Details | /events/1 | Planned |
+| Events | /events | Implemented |
+| About | /about | Implemented |
+| Event Details | /events/1 | Implemented |
 
 ## Notes
 External links should be tested in a browser before final submission.
 
-Internal routes will be fully functional after routing is implemented.
+Internal routes are connected with React Router. Event details currently shows a
+placeholder screen and is intentionally outside the three-page Week 2 core scope.

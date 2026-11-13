@@ -56,7 +56,13 @@ npm run dev
 
 ## Project Status
 
-Currently in Week 1 of development.
+Currently in Week 2 of development. Home, Events, and About are connected through
+shared responsive navigation. Event details remain available as a supporting route.
+
+## Week 2 checks
+
+See [docs/WEEK2_CHECKS.md](docs/WEEK2_CHECKS.md) for the responsive, navigation,
+keyboard, and issue/revision records.
 
 ## Author
 
