@@ -8,13 +8,12 @@ The platform provides a simple and user-friendly way to discover community event
 
 ## Features
 
-- Discover upcoming community events
-- Browse featured events
-- Search events
-- Explore event categories
-- View event details
-- Demo event registration
-- Responsive design
+- Discover upcoming community events from a shared typed event catalog
+- Search titles, descriptions, keywords, categories, and locations
+- Filter by category, online/in-person format, and free/paid status
+- View dynamic event details with invalid-event handling
+- Complete a validated frontend-only demo registration
+- Responsive and keyboard-friendly layouts
 
 ## Pages
 
@@ -54,10 +53,29 @@ npm install
 npm run dev
 ```
 
+## Development
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Run lint and the production build:
+
+```bash
+npm run lint
+npm run build
+```
+
 ## Project Status
 
-Currently in Week 2 of development. Home, Events, and About are connected through
-shared responsive navigation. Event details remain available as a supporting route.
+Week 3 interaction work is implemented. Home, Events, About, and dynamic Event
+Details routes are connected through shared responsive navigation. Registration is
+a local frontend demonstration and does not submit data to a backend.
+
+See [docs/week-3-workflow.md](docs/week-3-workflow.md) for the workflow and
+[docs/week-3-test-cases.md](docs/week-3-test-cases.md) for the manual test checklist.
 
 ## Week 2 checks
 
